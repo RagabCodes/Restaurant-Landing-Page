@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مطعم لقمة هنية | الطعم الأصلي</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- main styles -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-uppercase" href="#" style="color: var(--primary-color);">
+                <i class="bi bi-egg-fried"></i> لقمة هنية
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="#home">الرئيسية</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#menu">المنيو</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">عن المطعم</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">اتصل بنا</a></li>
+                </ul>
+                <a href="#reservation" class="btn btn-primary ms-lg-3">احجز طاولة</a>
+            </div>
+        </div>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="container">
+            <h1 class="display-3 fw-bold mb-4 fade-up">أشهى المأكولات الشرقية</h1>
+            <p class="lead mb-5 fade-up">نقدم لك تجربة طعام فريدة تجمع بين الأصالة والجودة العالية في قلب المدينة.</p>
+            <a href="#reservation" class="btn btn-primary btn-lg fade-up">احجز طاولتك الآن</a>
+        </div>
+    </header>
+
+    <section id="menu"  class="container menu">
+        <h2 class="text-center section-title fade-up">منيو المختار</h2>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card h-100 fade-up">
+                    <img src="img/grilled-meat.png" class="card-img-top menu-img" alt="مشويات">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">مشويات مشكلة</h5>
+                        <p class="card-text text-muted">كباب، كفتة، وريش مشوية على الفحم مع المقبلات.</p>
+                        <h6 class="text-primary fw-bold">250 ج.م</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 fade-up">
+                    <img src="img/burger.png" class="card-img-top menu-img" alt="برجر">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">برجر الشيف</h5>
+                        <p class="card-text text-muted">لحم بقري طازج مع صوص الجبنة السايحة والخضروات.</p>
+                        <h6 class="text-primary fw-bold">120 ج.م</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 fade-up">
+                    <img src="img/pizza.png" class="card-img-top menu-img" alt="بيتزا">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">بيتزا نابولي</h5>
+                        <p class="card-text text-muted">عجينة إيطالية رقيقة مع جبنة الموزاريلا والريحان.</p>
+                        <h6 class="text-primary fw-bold">150 ج.م</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="bg-white">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0 fade-up ">
+                    <img src="img/about.png" class="img-fluid rounded-4 shadow" alt="Our Restaurant">
+                </div>
+                <div class="col-lg-6 px-lg-5 fade-up">
+                    <h2 class="mb-4 fw-bold">قصتنا في تقديم السعادة</h2>
+                    <p class="text-muted">بدأنا منذ عام 1995 كفكرة صغيرة لتقديم الأكل البيتي بنفس الجودة والمذاق الأصيل. نحن نهتم بكل تفصيلة، من اختيار المكونات الطازجة يومياً لحد ما توصل الطبق لطاولتك.</p>
+                    <p class="text-muted">شيفاتنا متخصصين في دمج النكهات التقليدية بلمسة عصرية ترضي كل الأذواق.</p>
+                    <button class="btn btn-outline-primary mt-3">اقرأ المزيد</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="container">
+        <h2 class="text-center section-title fade-up">معرض الصور</h2>
+        <div class="row g-3">
+            <div class="col-md-3 col-6 fade-up"><img src="img/gallery1.png" class="gallery-img w-100 shadow-sm" alt="food"></div>
+            <div class="col-md-3 col-6 fade-up"><img src="img/gallery2.png" class="gallery-img w-100 shadow-sm" alt="food"></div>
+            <div class="col-md-3 col-6 fade-up"><img src="img/gallery3.png" class="gallery-img w-100 shadow-sm" alt="food"></div>
+            <div class="col-md-3 col-6 fade-up"><img src="img/gallery4.png" class="gallery-img w-100 shadow-sm" alt="food"></div>
+        </div>
+    </section>
+
+    <section id="reservation" class="bg-white">
+        <div class="container">
+            <div class="row justify-content-center text-center mb-5">
+                <div class="col-lg-7">
+                    <h2 class="fw-bold section-title fade-up">احجز طاولة</h2>
+                    <p class="text-muted">املا البيانات وهنكلمك نؤكد معاك الحجز خلال دقايق</p>
+                </div>
+            </div>
+            <div class="row justify-content-center fade-up ">
+                <div class="col-md-8">
+                    <form class="row g-3 p-4 border rounded-4 shadow-sm">
+                        <div class="col-md-6">
+                            <label class="form-label">الاسم الكامل</label>
+                            <input type="text" class="form-control rounded-pill" placeholder="أدخل اسمك">
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label">رقم الهاتف</label>
+                            <input type="tel" class="form-control rounded-pill" placeholder="01xxxxxxxxx">
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label">تاريخ الحجز</label>
+                            <input type="date" class="form-control rounded-pill">
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label">عدد الأفراد</label>
+                            <select class="form-select rounded-pill">
+                                <option>شخصين</option>
+                                <option>4 أشخاص</option>
+                                <option>6 أشخاص فأكثر</option>
+                            </select>
+                        </div>
+                        <div class="col-12">
+                            <label class="form-label">ملاحظات إضافية</label>
+                            <textarea class="form-control rounded-4" rows="3"></textarea>
+                        </div>
+                        <div class="col-12 text-center mt-4">
+                            <button type="submit" class="btn btn-primary btn-lg w-100">إرسال طلب الحجز</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-5 bg-dark text-white text-center">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <h5 class="fw-bold mb-3">عن لقمة هنية</h5>
+                    <p class="small text-secondary">مطعمنا بيقدم تجربة أكل متميزة بنهتم فيها بكل تفصيلة عشان نرضي ذوقك.</p>
+                </div>
+                <div class="col-md-4 border-start border-end border-secondary">
+                    <h5 class="fw-bold mb-3">مواعيد العمل</h5>
+                    <p class="small text-secondary mb-0">يومياً من الساعة 12 ظهراً</p>
+                    <p class="small text-secondary">حتى 2 صباحاً</p>
+                </div>
+                <div class="col-md-4">
+                    <h5 class="fw-bold mb-3">تابعنا على</h5>
+                    <div class="fs-4">
+                        <a href="#" class="text-white me-3"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="text-white me-3"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="text-white"><i class="bi bi-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-4 text-secondary">
+            <p class="mb-0 text-secondary">© 2026 لقمة هنية. جميع الحقوق محفوظة.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- main scripts -->
+    <script src="js/script.js"></script>
+</body>
+</html>
