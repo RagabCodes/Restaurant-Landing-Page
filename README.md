@@ -83,3 +83,8 @@ Electrical Engineering Student and aspiring Full-Stack Web Developer focused on 
 ## 📄 License
 
 This project is open-source and available for learning and portfolio purposes.
+
+
+## Preview
+
+![Preview](preview.png)
