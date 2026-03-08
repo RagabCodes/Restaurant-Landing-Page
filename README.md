@@ -63,7 +63,7 @@ The landing page includes the following sections:
 The project can be viewed live using **GitHub Pages**.
 
 Example link:
-https://ragabcodes.github.io/restaurant-landing-page 
+https://ragabcodes.github.io/Restaurant-Landing-Page/ 
 
 
 
